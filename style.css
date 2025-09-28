@@ -1,0 +1,89 @@
+@font-face {
+    font-family: dicknison;
+    src: url(font/Dicknison-Regular.otf);
+}
+
+@font-face {
+    font-family: chorus;
+    src: url(font/CHORUS-BLACK.otf);
+}
+@font-face {
+    font-family: GNF;
+    src: url(font/GNF.ttf);
+}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .vid_1 {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+
+    .text_1 {
+       font-family: dicknison;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      text-transform: uppercase;
+      color: aliceblue;
+      text-align: center;
+      transform: translateX(-50%);
+      font-size: 6em;
+      letter-spacing: 35px;
+   
+    }
+    #red_box{
+       height: 30em;
+        width: 100em;
+        background-color: red;
+    }
+
+    
+  #text_2{
+    font-family: GNF;
+    font-size: 1.5em;
+    text-align: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 49em;
+    padding-top: 20em;
+  font-weight: 600;
+  }
+
+#text_3 {
+  position: absolute;
+  top: 6em;          
+  right: 2em;        
+  width: 23em;       
+  font-family: GNF;
+  font-size: 1.2em;
+  color: #fff;       
+  text-align: right; 
+  text-align: center;
+}
+
+.eye{
+    position: absolute;
+   top: 14em;          
+   right: 2em; 
+         
+   width: 22em
+}
+
+
+.banner{
+     position: absolute;
+     height: 30em;
+     margin-left: 3em;
+}
